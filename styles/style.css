@@ -33,11 +33,15 @@ html {
 }
 
 .result__video-container {
-
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
 }
 
 .result__video {
-
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 
 .search-form {
@@ -112,10 +116,13 @@ html {
   overflow: scroll;
   height: 298px;
   margin-top: 26px;
+  gap: 30px;
 }
 
 .content__list {
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .preloader-template {
@@ -147,11 +154,15 @@ html {
 }
 
 .content__video-card {
-
+  display: flex;
+  align-items: flex-start;
 }
 
 .content__video-card-description-container {
-
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .content__video-card-title {
@@ -163,7 +174,10 @@ html {
 }
 
 .content__video-card-thumbnail {
-
+  height: 103px;
+  min-width: 194px;
+  object-fit: fill;
+  object-position: center;
 }
 
 .more-button-template {
