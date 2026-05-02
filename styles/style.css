@@ -32,6 +32,9 @@ html {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
+  overflow: hidden;
+  background: black;
+  opacity: 1;
 }
 
 .result__video-container,
@@ -50,9 +53,11 @@ html {
 }
 
 .result__video {
+  display: block
   height: 100%;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
