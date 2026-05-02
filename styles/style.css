@@ -24,7 +24,7 @@ html {
   width: 1140px;
   height: 534px;
   gap: 30px;
-  margin: 333px 390px;
+  margin: 366px 381px;
   align-items: center;
 }
 
@@ -53,7 +53,7 @@ html {
 }
 
 .result__video {
-  display: block
+  display: block;
   height: 100%;
   width: 100%;
   object-fit: cover;
