@@ -74,6 +74,10 @@ html {
   outline: 1px solid #fff;
 }
 
+.search-form__label:has(.search-form__checkbox:focus-visible) {
+  outline: 1px solid #fff;
+}
+
 .search-form__label-text {
 
 }
@@ -118,10 +122,6 @@ html {
   gap: 15px;
 }
 
-.search-form__checkbox {
-
-}
-
 .search-form__checkbox:checked {
   opacity: 1;
 }
@@ -142,11 +142,7 @@ html {
   opacity: 0;
 }
 
-.search-form__pseudo-checkbox {
-  
-}
-
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
