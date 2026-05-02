@@ -147,20 +147,35 @@ html {
 }
 
 .button {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  gap: 10px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  padding: 5px;
 }
 
 .search-form__submit-button {
-
+  width: 194px;
+  height: 34px;
+  align-self: self-end;
 }
 
 .content__details {
+  width: 399px;
+  height: 534px;
 }
 
 .title {
+width: 260px;
+height: 210px;
 font-family: 'Oswald', sans-serif;
 font-weight: 700;
-font-style: Bold;
 font-size: 75px;
 line-height: 94%;
 letter-spacing: 0%;
@@ -175,10 +190,12 @@ text-transform: uppercase;
 .content__list-container {
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 298px;
   margin-top: 26px;
   gap: 30px;
+
 }
 
 .content__list {
@@ -220,6 +237,8 @@ text-transform: uppercase;
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  width: 390px;
+  height: 103px;
 }
 
 .content__video-card-description-container {
@@ -268,7 +287,8 @@ text-transform: uppercase;
 }
 
 .more-button {
-
+  width: 100%;
+  height: 34px;
 }
 
 .error-template {
