@@ -21,11 +21,12 @@ html {
 
 .content {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
   block-size: 100%;
   width: 1140px;
+  height: 534px;
   gap: 30px;
+  margin: 133px 30px;
+  align-items: center;
 }
 
 .result__video-container {
@@ -36,13 +37,13 @@ html {
 
 .result__video-container,
 .content__list-container {
+  display: grid;
   position: relative;
 }
 
 .result__video-container .preloader,
 .content__list-container .preloader {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,6 +194,7 @@ html {
 .content__details {
   width: 399px;
   height: 534px;
+  margin-bottom: 75px;
 }
 
 .title {
