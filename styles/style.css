@@ -149,6 +149,7 @@ ol {
   display: flex;
   gap: 15px;
   width: 212px;
+  justify-content: center;
 }
 
 .search-form__pseudo-checkbox::after {
@@ -196,6 +197,7 @@ ol {
 
 .button:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .button:focus-visible {
@@ -275,6 +277,7 @@ ol {
 
 .content__card-link:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .content__video-card {
