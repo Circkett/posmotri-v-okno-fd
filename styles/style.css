@@ -97,7 +97,7 @@ ol {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
   width: fit-content;
   gap: 5px;
   cursor: pointer;
